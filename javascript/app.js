@@ -32,6 +32,9 @@ function factorial(number) {
 function fibonacci(number) {
 
     //Write your code here
+    if(number === 0||number===1)
+      return number;
+    else{
     var result=[0,1];
     for (var i = 2; i < number; i++)
     {
@@ -39,6 +42,7 @@ function fibonacci(number) {
     }
     
     return result[number-1];
+    }
 }
 
 // Param expression: string containing a mathematical expression

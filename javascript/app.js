@@ -34,9 +34,7 @@ function fibonacci(number) {
       result[i] = result[i - 2] + result[i - 1];
     }
     
-    console.log(result)
-    //document.write(numeros)
-    return -1
+    return result;
 }
 
 // Param expression: string containing a mathematical expression

@@ -28,14 +28,14 @@ function factorial(number) {
 function fibonacci(number) {
 
     //Write your code here
-    var numeros=[0,1];
-    for (var i = 2; i < numero; i++)
+    var result=[0,1];
+    for (var i = 2; i < number; i++)
     {
-      numeros[i] = numeros[i - 2] + numeros[i - 1];
+      result[i] = result[i - 2] + result[i - 1];
     }
     
-    document.write(numeros);
-    
+    console.log(result)
+    //document.write(numeros)
     return -1
 }
 

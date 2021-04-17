@@ -32,8 +32,8 @@ function factorial(number) {
 function fibonacci(number) {
 
     //Write your code here
-    if(number === 0||number===1)
-      return number;
+    if(number === 1)
+      return 0;
     else{
     var result=[0,1];
     for (var i = 2; i < number; i++)

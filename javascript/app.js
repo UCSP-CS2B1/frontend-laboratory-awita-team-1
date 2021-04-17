@@ -50,11 +50,10 @@ function fibonacci(number) {
 
 // Param expression: string containing a mathematical expression
 // Returns an integer value
+
 function evaluation(expression) {
-
-    //Write your code here
-
-    return -1
+  var result=eval(expression);
+  return result;
 }
 
 

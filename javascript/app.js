@@ -38,7 +38,7 @@ function fibonacci(number) {
       result[i] = result[i - 2] + result[i - 1];
     }
     
-    return result[number];
+    return result[number-1];
 }
 
 // Param expression: string containing a mathematical expression

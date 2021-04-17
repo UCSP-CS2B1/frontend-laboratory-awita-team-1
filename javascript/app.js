@@ -22,7 +22,14 @@ function factorial(number) {
 function fibonacci(number) {
 
     //Write your code here
-
+    var numeros=[0,1];
+    for (var i = 2; i < numero; i++)
+    {
+      numeros[i] = numeros[i - 2] + numeros[i - 1];
+    }
+    
+    document.write(numeros);
+    
     return -1
 }
 

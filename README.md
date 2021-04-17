@@ -12,7 +12,7 @@
 - Daniela Alejandra Chávez Aguilar (201-10-47515)
 - Name and surname (Student ID)
 - Carlos Alberto Castro Meza (201-10-47491)
-- Name and surname (Student ID)
+- Rodrigo Alonso Torres Sotomayor (201-10-47891)
 - Name and surname (Student ID)
 
 ---

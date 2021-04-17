@@ -39,7 +39,7 @@ function fibonacci(number) {
     else{
     var result=[0,1];
     var i = 2
-    for (; i < number; i++)
+    for (; i <= number; i++)
     {
       result[i] = result[i - 2] + result[i - 1];
     }

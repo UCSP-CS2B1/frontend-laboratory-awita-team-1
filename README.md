@@ -10,7 +10,7 @@
 **Members:**
 
 - Daniela Alejandra Chávez Aguilar (201-10-47515)
-- Name and surname (Student ID)
+- Pablo Carazas Barrios (201-10-47470)
 - Carlos Alberto Castro Meza (201-10-47491)
 - Rodrigo Alonso Torres Sotomayor (201-10-47891)
 - Name and surname (Student ID)

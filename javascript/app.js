@@ -33,15 +33,16 @@ function fibonacci(number) {
 
     //Write your code here
     if(number === 1||number===0)
-      return number;
+      return 0;
     else{
     var result=[0,1];
-    for (var i = 2; i < number; i++)
+    var i = 2
+    for (; i < number; i++)
     {
       result[i] = result[i - 2] + result[i - 1];
     }
     
-    return result[number-1];
+    return result[i-1];
     }
 }
 

@@ -32,8 +32,10 @@ function factorial(number) {
 function fibonacci(number) {
 
     //Write your code here
-    if(number === 1||number===0)
+    if(number===0)
       return 0;
+     else if(number === 1)
+      return 1;
     else{
     var result=[0,1];
     var i = 2

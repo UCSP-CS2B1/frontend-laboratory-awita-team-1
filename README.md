@@ -9,8 +9,8 @@
 
 **Members:**
 
+- Daniela Alejandra Chávez Aguilar (201-10-47515)
 - Name and surname (Student ID)
-- Carlos Castro Meza (201-10-47491)
 - Name and surname (Student ID)
 - Name and surname (Student ID)
 - Name and surname (Student ID)

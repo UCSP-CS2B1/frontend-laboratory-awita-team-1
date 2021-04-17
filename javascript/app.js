@@ -19,8 +19,12 @@ function insertion_sort(numbers) {
 function factorial(number) {
 
     //Write your code here
+  var res = 1; 
+	for (i=1; i<=number; i++) {
+		res = res * i; 
+	}
+	return res; 
 
-    return -1;
 }
 
 // Param number: single integer

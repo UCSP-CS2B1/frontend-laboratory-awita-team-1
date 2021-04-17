@@ -33,7 +33,7 @@ function fibonacci(number) {
 
     //Write your code here
     if(number === 1||number===0)
-      return 0;
+      return number;
     else{
     var result=[0,1];
     for (var i = 2; i < number; i++)

@@ -10,7 +10,7 @@
 **Members:**
 
 - Name and surname (Student ID)
-- Name and surname (Student ID)
+- Carlos Castro Meza (201-10-47491)
 - Name and surname (Student ID)
 - Name and surname (Student ID)
 - Name and surname (Student ID)

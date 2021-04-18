@@ -1,16 +1,20 @@
 // Param numbers: array of numbers
 // Returns a sorted array
 function insertion_sort(numbers) {
-  for (var i = 1; i < numbers.length; i++) {
-    var current = numbers[i];
-    var j = i-1; 
-    while ((j > -1) && (current < numbers[j])) {
-        numbers[j+1] = numbers[j];
-        j--;
+  for(var i = 1; i < numbers.length; i++){
+    var guardado = numbers[i];
+    var aux = i - 1;
+    var flag = true;
+    while(flag){
+      if(numbers[aux]>guardado && aux >= 0){
+        numbers[aux+1] = numbers[aux];
+        aux--;        
+      }      
+      else flag = false;
     }
-    numbers[j+1] = current;
+    numbers[aux+1] = guardado    
   }
-  return numbers;
+  return numbers
 }
 
 

@@ -1,3 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{	margin:0 px; 
+	padding:0px;
+}
+body {
+    background: rgb(231, 231, 231);
+    margin: 0;
+    font-family: "poppins";
+} 
 
-/*Place your style sheet content here, you already have Poppins font imported*/
+
+.navbar {
+    background: cornflowerblue;
+    padding: 5px;
+
+}
+
+.navbar h3{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+footer{
+    background: #f2f2f2;
+    color: black;
+    text-align:center;
+    line-height:50 px;
+    clear: both;
+    margin: 0;
+}
+
+#participants {
+  display: flex;
+  flex-wrap: wrap;
+}
+.article {
+  background-color:white;
+  margin: 10px;
+  width: 253px;
+  height: 150px;
+  float: left;
+  font-weight: bold;
+  border-radius: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icono{
+  border-radius: 50%;
+}
+
+input[type=button] {
+    background-color: rgb(31, 80, 153);
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+    border: none;
+    border-radius: 0.4em;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 0.4em;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+}
+
+.displaced {
+  margin-left: 200px;
+  transition: all 350ms linear;
+}
+
+#container .box {
+  flex: 1;
+  background-color: white;
+  min-width: 240px;
+  max-width: 420px;
+  max-height: 400px;
+  padding: 2em;
+  border-radius: 0.4em;
+}
+
+#sidebar {
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  background-color: rgb(52, 97, 180);
+  left: -200px;
+  top: 0px;
+  transition: all 350ms linear;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul {
+  text-align: center;
+  padding: 15px 10px;
+}
+#sidebar ul a{
+  color: rgba(230, 230, 230 , .9); 
+}
+
+#sidebar .burgerbutton {
+  position: absolute;
+  color: white;
+  left: 230px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#sidebar .burgerbutton span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+}

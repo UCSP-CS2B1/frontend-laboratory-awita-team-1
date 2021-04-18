@@ -9,8 +9,19 @@ function displayResult(field,value) {
   return false;
 }
 
+function disableScroll() {
+  window.scrollTo(0, 0);
+}
+
 var btn = document.querySelector('.burgerbutton');
 btn.addEventListener('click', function () {
   document.getElementById('sidebar').classList.toggle('active');
   document.querySelector('body').classList.toggle('displaced');
+  console.log("click");
+  if (document.getElementById('sidebar').classList.contains('active')){
+    window.addEventListener('scroll', disableScroll);
+  }
+  else {
+    window.removeEventListener('scroll', disableScroll);
+  }
 });

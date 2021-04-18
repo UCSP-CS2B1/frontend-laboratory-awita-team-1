@@ -12,7 +12,7 @@ function insertion_sort(numbers) {
       }      
       else flag = false;
     }
-    numbers[aux+1] = guardado    
+    numbers[aux+1] = guardado;    
   }
   return numbers
 }

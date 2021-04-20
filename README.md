@@ -1,19 +1,21 @@
 ## Laboratory Activity
 
-**Grade** -
+**Grade**: 16
 
-- (5pts) Layout
-- (5pts) CSS 
-- (5pts) Javascript methods
-- (5pts) Responsiveness
+- (3/5pts) Layout
+- (4/5pts) CSS 
+- (5/5pts) Javascript methods
+- (4/5pts) Responsiveness
+
+Nice work!
 
 **Members:**
 
-- Name and surname (Student ID)
-- Name and surname (Student ID)
-- Name and surname (Student ID)
-- Name and surname (Student ID)
-- Name and surname (Student ID)
+- Daniela Alejandra Chávez Aguilar (201-10-47515)
+- Pablo Carazas Barrios (201-10-47470)
+- Carlos Alberto Castro Meza (201-10-47491)
+- Rodrigo Alonso Torres Sotomayor (201-10-47891)
+- Giulia Alexa Naval Fernández (201-10-47725)
 
 ---
 
